@@ -1,7 +1,9 @@
-.hello {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: bisque;
+  background-color: white;
 }
