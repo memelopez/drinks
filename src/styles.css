@@ -2,7 +2,7 @@
 
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
 /* styles */
 
@@ -16,6 +16,37 @@ body {
   background-color: white;
 }
 
+a {
+  color: white;
+}
+
+/* nav for mobile view */
 .logoF {
-  font-family: 'Yellowtail', cursive;
+  font-family: "Yellowtail", cursive;
+}
+
+.blueHdr {
+  height: 100px;
+  background-color: #00b8f4;
+  width: 100%;
+}
+
+.topLogo {
+  height: 80px;
+}
+
+.rightBtns {
+  width: 40%;
+}
+
+.navDots {
+  font-size: 1.5em;
+}
+
+.mobBook {
+  color: white;
+  border: none;
+  background-color: #0098ca;
+  width: 70%;
+  height: 45px;
 }
