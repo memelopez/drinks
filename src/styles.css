@@ -2,7 +2,7 @@
 
 /* fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
 
 /* styles */
 
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #231024;
 }
 
 a {
@@ -21,12 +21,19 @@ a {
 }
 
 /* nav for mobile view */
-.logoF {
-  font-family: "Yellowtail", cursive;
+.posRel {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .blueHdr {
-  height: 100px;
+  height: 90px;
   background-color: #00b8f4;
   width: 100%;
 }
@@ -49,4 +56,84 @@ a {
   background-color: #0098ca;
   width: 70%;
   height: 45px;
+}
+
+/* main content */
+
+/* Premium liquors */
+
+.mainContent {
+  padding-top: 150px;
+}
+
+.premliq {
+  background-image: url("./assets/imgs/premLiqs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.worldsBest {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+.smallerBestText {
+  font-family: "Allan", sans-serif;
+  color: #c19c46;
+  margin-top: 1.15em;
+  font-size: 1.5em;
+}
+
+.bestText,
+.biggerBestText {
+  color: white;
+  text-align: center;
+}
+
+.bestText {
+  font-size: 1.45em;
+}
+
+.biggerBestText {
+  font-size: 2.75em;
+  margin-bottom: 0.5em;
+}
+
+.certificate {
+  padding-top: 5em;
+  width: 45%;
+  height: 65%;
+}
+
+/* hallmark */
+
+.hallmark {
+  /* height: 125`0px; */
+  background-color: #353535;
+  padding: 3.5em 1.95em;
+}
+
+.hallmarkTitle {
+  color: #0098ca;
+  font-size: 2.25em;
+  font-weight: 800;
+  margin-bottom: 1.25em;
+}
+
+.liqLogos img {
+  width: 100%;
+}
+
+.pHall {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+
+#d4video {
+  padding: 3em 0;
 }
