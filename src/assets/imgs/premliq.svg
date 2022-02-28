@@ -1,0 +1,23 @@
+<svg width="355" height="455" xmlns="http://www.w3.org/2000/svg">
+ <title>premLiq</title>
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="460.00002" width="361.00001" y="-1" x="-1" fill="#000000"/>
+  <rect stroke="#c19c46" id="svg_6" height="432.99998" width="285" y="8.50001" x="37.99999" stroke-width="1.5" fill="none"/>
+  <line stroke-width="1.5" id="svg_3" y2="445.5" x2="22" y1="7.5" x1="22" stroke="#c19c46" fill="none"/>
+  <line stroke-width="1.5" id="svg_5" y2="446.5" x2="339" y1="8.5" x1="339" stroke="#c19c46" fill="none"/>
+  <path stroke="#c19c46" id="svg_7" d="m107.36,59.90268l15.6607,0l4.83928,-12.22294l4.83928,12.22294l15.66069,0l-12.66975,7.55411l4.83953,12.22294l-12.66975,-7.55431l-12.66975,7.55431l4.83953,-12.22294l-12.66975,-7.55411z" stroke-width="1.5" fill="#c19c46"/>
+  <path stroke="#c19c46" id="svg_9" d="m165.36,49.90268l15.66069,0l4.83928,-12.22294l4.83928,12.22294l15.66069,0l-12.66975,7.5541l4.83953,12.22294l-12.66975,-7.55431l-12.66975,7.55431l4.83953,-12.22294l-12.66975,-7.5541z" stroke-width="1.5" fill="#c19c46"/>
+  <path stroke="#c19c46" id="svg_10" d="m222.36,60.90268l15.66069,0l4.83928,-12.22294l4.83928,12.22294l15.66069,0l-12.66975,7.5541l4.83953,12.22294l-12.66975,-7.55431l-12.66975,7.55431l4.83953,-12.22294l-12.66975,-7.5541z" stroke-width="1.5" fill="#c19c46"/>
+  <path stroke="#c19c46" id="svg_11" d="m58.36,73.90268l15.66069,0l4.83928,-12.22294l4.83928,12.22294l15.66069,0l-12.66975,7.5541l4.83953,12.22294l-12.66975,-7.55431l-12.66975,7.55431l4.83953,-12.22294l-12.66975,-7.5541z" stroke-width="1.5" fill="#c19c46"/>
+  <path stroke="#c19c46" id="svg_12" d="m269.36,73.90268l15.66069,0l4.83928,-12.22294l4.83928,12.22294l15.66069,0l-12.66975,7.5541l4.83953,12.22294l-12.66975,-7.55431l-12.66975,7.55431l4.83953,-12.22294l-12.66975,-7.5541z" stroke-width="1.5" fill="#c19c46"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="28" id="svg_13" y="119.5" x="133" stroke-width="0" stroke="#ffffff" fill="#ffffff">5-STAR</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="34" id="svg_14" y="163.5" x="95" stroke-width="0" stroke="#ffffff" fill="#ffffff">PREMIUM</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="44" id="svg_15" y="214.5" x="81" stroke-width="0" stroke="#ffffff" fill="#ffffff">LIQUORS</text>
+  <line stroke-width="2" id="svg_16" y2="232.5" x2="289" y1="232.5" x1="78" stroke="#ffffff" fill="none"/>
+  <path stroke="#c19c46" id="svg_17" d="m75.43501,300.73643l62.97172,-51.54894l89.05657,0l62.97172,51.54894l0,72.90213l-62.97172,51.54894l-89.05657,0l-62.97172,-51.54894l0,-72.90213z" stroke-width="4" fill="none"/>
+  <path stroke="#c19c46" id="svg_19" d="m86.43501,305.05016l57.40677,-46.86267l81.18645,0l57.40678,46.86267l0,66.27466l-57.40678,46.86268l-81.18645,0l-57.40677,-46.86268l0,-66.27466z" stroke-width="2" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="34" id="svg_21" y="326.5" x="133" stroke-width="1.5" fill="#c19c46">GOLD</text>
+ </g>
+
+</svg>
