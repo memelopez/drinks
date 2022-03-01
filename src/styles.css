@@ -137,3 +137,66 @@ header {
 #d4video {
   padding: 3em 0;
 }
+
+/* secondary content */
+
+.secondaryContent {
+  background-color: white;
+  padding: 2em 0;
+}
+
+.mood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 1.75em;
+}
+
+.moodContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.matchBar {
+  color: #0098ca;
+  font-size: 2.25em;
+  font-weight: bold;
+}
+
+.EvMood {
+  font-size: 2.15em;
+  font-weight: bold;
+}
+
+.pMood {
+  font-size: 2em;
+  text-align: center;
+  margin: 1em 0.5em;
+}
+
+.servSafe {
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  padding: 0.5em;
+}
+
+.innerSS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid white 2px;
+  padding: 1em 0.5em;
+}
+
+.innerSS img {
+  width: 100%;
+}
+
+.pSS {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  margin: 1em 0.5em;
+}
