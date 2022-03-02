@@ -20,7 +20,7 @@ a {
   color: white;
 }
 
-/* nav for mobile view */
+/* nav */
 .posRel {
   position: relative;
 }
@@ -31,6 +31,42 @@ header {
   left: 0;
   right: 0;
   z-index: 5;
+}
+
+.topNav {
+  background-color: #000;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5em 0.15em 0.5em 2.5em;
+}
+
+.topNavA {
+  font-size: 0.6em;
+  text-decoration: none;
+  padding: 0 0.75em;
+  color: grey;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  border: solid grey 1px;
+  border-radius: 10px;
+  padding: 0 0.3em;
+  margin-right: 1em;
+}
+
+.searchInput input {
+  color: white;
+  background-color: #000;
+  border: none;
+  font-size: 0.6em;
+}
+
+.searchInput i {
+  color: grey;
+  font-size: 0.6em;
 }
 
 .blueHdr {
@@ -57,6 +93,24 @@ header {
   background-color: #0098ca;
   width: 70%;
   height: 45px;
+}
+
+.bookTablet {
+  display: none;
+  flex-direction: column;
+  color: white;
+  border-right: solid white 1px;
+  padding-right: 1em;
+}
+
+.bookTablet h3 {
+  font-size: x-large;
+}
+
+.bookTablet h3,
+.bookTablet p {
+  text-align: center;
+  margin: 0;
 }
 
 /* main content */
@@ -122,6 +176,11 @@ header {
   font-size: 2.25em;
   font-weight: 800;
   margin-bottom: 1.25em;
+}
+
+.liqLogos {
+  margin: 0;
+  padding: 0;
 }
 
 .liqLogos img {
@@ -381,7 +440,7 @@ header {
 .oneWine img {
   width: 70%;
   border-radius: 50%;
-  border: #0098ca solid 3px;
+  border: #0098ca solid 7px;
 }
 
 .wineDescription img {
@@ -529,4 +588,93 @@ footer {
 
 .footerImg {
   width: 70%;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .topNav {
+    display: flex;
+  }
+
+  .blueHdr {
+    height: 60px;
+  }
+
+  .topLogo {
+    height: 60px;
+  }
+
+  .mobBook {
+    display: none;
+  }
+
+  .rightBtns {
+    width: 50%;
+  }
+
+  .bookTablet {
+    display: flex;
+  }
+
+  .navDots {
+    font-size: 1.75em;
+  }
+
+  .pHall {
+    font-size: 1em;
+  }
+
+  .liqLogos {
+    width: 60%;
+    margin: auto;
+  }
+
+  .pMood {
+    font-size: 1em;
+  }
+
+  .servSafe {
+    width: 90%;
+  }
+
+  .innerSS {
+    flex-direction: row;
+  }
+
+  .innerSS img {
+    width: 40%;
+  }
+
+  .pSS {
+    font-size: 1em;
+  }
+
+  .cocktailsNote,
+  .aboveWines {
+    font-size: 1.1em;
+  }
+
+  .winesContent {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .lastBeach {
+    width: 75%;
+    margin: auto;
+  }
+
+  .more {
+    font-size: 2em;
+  }
+
+  .lastBeach p {
+    font-size: 1.1em;
+  }
+
+  .viewInclus {
+    width: 80%;
+    font-size: 1.5em;
+  }
 }
