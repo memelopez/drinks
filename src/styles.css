@@ -30,6 +30,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 5;
 }
 
 .blueHdr {
@@ -199,4 +200,103 @@ header {
   color: white;
   text-align: center;
   margin: 1em 0.5em;
+}
+
+/* slider */
+
+.allSlideContent {
+  margin: 2em 0;
+}
+
+.aSlide {
+  height: 700px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slide1 {
+  background-image: url("./assets/imgs/sliderImages/carou-img1.jpg");
+}
+
+.aSlideContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.slideH3,
+.slideSpan {
+  text-shadow: 5px 5px 20px #000;
+}
+
+.slideH3 {
+  font-size: 5em;
+  margin: 0;
+  font-weight: 800;
+}
+
+.slideSpan {
+  font-size: 1.5em;
+}
+
+.cover-gradient-slide {
+  display: block;
+  position: absolute;
+  background: transparent url(./assets/imgs/whiteGradient.png) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.lowerBar {
+  width: 90%;
+  height: 50px;
+  background-color: black;
+  opacity: 80%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aLB {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  color: #0098ca;
+}
+
+.LBtext {
+  font-size: 1.15em;
+  align-self: center;
+}
+
+.sliderControls {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0 3em;
+  align-items: center;
+  color: grey;
+}
+
+.sliderControls a {
+  color: grey;
+}
+
+.slideCounter {
+  font-size: 1.5em;
+  margin: 0 1em;
 }
