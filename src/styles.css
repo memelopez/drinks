@@ -247,19 +247,6 @@ header {
   font-size: 1.5em;
 }
 
-.cover-gradient-slide {
-  display: block;
-  position: absolute;
-  background: transparent url(./assets/imgs/whiteGradient.png) no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 2;
-}
-
 .lowerBar {
   width: 90%;
   height: 50px;
@@ -361,4 +348,136 @@ header {
 
 .oneCocktail span {
   font-size: 0.75em;
+}
+
+.aboveWines {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 1em 3em;
+  text-align: center;
+}
+
+.blueW {
+  color: #0098ca;
+  display: inline;
+}
+
+/* wines */
+
+.winesContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 3em 0;
+}
+
+.oneWine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.oneWine img {
+  width: 70%;
+  border-radius: 50%;
+  border: #0098ca solid 3px;
+}
+
+.wineDescription img {
+  width: 90%;
+  border-radius: 0%;
+  border: none;
+}
+
+.wineDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 1em 0;
+}
+
+.wineDescription h5 {
+  font-size: 2em;
+  font-weight: 700;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+.wineDescription p {
+  font-size: 1.5em;
+  align-items: center;
+  padding: 0.25em 1em;
+  text-align: center;
+  color: grey;
+  margin: 0;
+}
+
+.wineDescription a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+/* second video section */
+
+.forWhiteGrad {
+  position: relative;
+}
+
+.secondVContent {
+  height: 900px;
+  position: relative;
+  background-image: url("./assets/imgs/pexels-mikhail-nilov-8158180\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-gradient {
+  position: absolute;
+  background-image: url("./assets/imgs/whiteGradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.lowerInfo {
+  display: flex;
+  padding: 0.5em 2em 0.5em 3em;
+  background-color: #000;
+  opacity: 85%;
+  position: absolute;
+  bottom: 2.5%;
+  color: white;
+  border-radius: 25px;
+  left: 10%;
+  right: 10%;
+  z-index: 3;
+}
+
+.vidBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vidBtn img {
+  width: 100%;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textInfo h4 {
+  font-size: 2em;
+  font-weight: 700;
 }
