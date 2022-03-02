@@ -481,3 +481,52 @@ header {
   font-size: 2em;
   font-weight: 700;
 }
+
+/* last section */
+
+.lastBeach {
+  margin: 3em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lastBeach img {
+  width: 70%;
+}
+
+.more {
+  font-size: 3.5em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.lastBeach p {
+  font-size: 1.5em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.viewInclus {
+  height: 80px;
+  width: 100%;
+  background-color: #0098ca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerImg {
+  width: 70%;
+}
