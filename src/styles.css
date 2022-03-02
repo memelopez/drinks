@@ -300,3 +300,65 @@ header {
   font-size: 1.5em;
   margin: 0 1em;
 }
+
+/* Cocktails */
+
+.cocktailsContent {
+  margin: 4em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cocktailsTitle {
+  color: #0098ca;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.cocktailsTitle strong {
+  color: #000;
+}
+
+.cocktailsSubT {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.note {
+  border-top: grey solid 1px;
+  border-bottom: grey solid 1px;
+  margin: 1.5em 0;
+}
+
+.cocktailsNote {
+  color: #0098ca;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 1em 3em;
+  text-align: center;
+}
+
+.cocktails-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 3em 0;
+}
+
+.oneCocktail {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cocktailImg {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.oneCocktail span {
+  font-size: 0.75em;
+}
