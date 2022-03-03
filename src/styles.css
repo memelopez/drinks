@@ -281,18 +281,42 @@ header {
 
 .allSlideContent {
   margin: 2em 0;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
 }
 
 .aSlide {
   height: 700px;
+  min-width: 100%;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: block;
 }
 
 #slide1 {
   background-image: url("./assets/imgs/sliderImages/carou-img1.jpg");
+}
+
+#slide2 {
+  background-image: url("./assets/imgs/sliderImages/carou-img2.jpg");
+}
+
+#slide3 {
+  background-image: url("./assets/imgs/sliderImages/carou-img3.jpg");
+}
+
+#slide4 {
+  background-image: url("./assets/imgs/sliderImages/carou-img4.jpg");
+}
+
+#slide5 {
+  background-image: url("./assets/imgs/sliderImages/carou-img5.jpg");
 }
 
 .aSlideContent {
