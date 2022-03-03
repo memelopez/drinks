@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # All Included Drinks by Beaches Resorts
 
 > Landing page for Beaches resort by Sandals
