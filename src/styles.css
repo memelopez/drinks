@@ -209,7 +209,7 @@ header {
   padding: 3em 0;
 }
 
-#d4video iframe{
+#d4video iframe {
   width: 460px;
   height: 345px;
 }
@@ -769,7 +769,7 @@ footer {
 
   .mood {
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     padding: 2em 3.75em;
   }
@@ -780,7 +780,7 @@ footer {
   }
 
   .pMood {
-    text-align:start;
+    text-align: start;
     margin: 0.5em 0;
     width: 80%;
   }
