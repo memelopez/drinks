@@ -47,10 +47,10 @@ const closeBtn = document.querySelector('.close');
 
 modalBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  modal.style.display = "block";
+  modal.style.display = 'block';
 });
 
 closeBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  modal.style.display = "none";
+  modal.style.display = 'none';
 });
