@@ -131,19 +131,93 @@
             </div>
           </div>
         </div> <!-- .mood -->
-        <div class="glide">
-          <div class="glide__track" data-glide-el="track">
-            <div class="glide__slides">
-              <img src="2cb7a409ba70c67569d1.jpg" alt="carousel image 1" class="glide__slide">
-              <img src="5b963ed4c3a7a1c4d915.jpg" alt="carousel image 2" class="glide__slide">
-              <img src="7908f21a36084f2d3ca7.jpg" alt="carousel image 3" class="glide__slide">
+        <div class="allSlideContent">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div id="slide1" class="aSlide">
+                    <div class="aSlideContent">
+                      <h3 class="slideH3">Swim-Up</h3>
+                      <span class="slideSpan">POOL BAR</span>
+                      <div class="lowerBar">
+                        <span class="LBtext">MORE DETAILS</span>
+                        <a href="#" class="aLB">
+                          <i class="fas fa-bars barsLB"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div> <!-- #slide1.aSlide -->
+                </li>
+                <li class="glide__slide">
+                  <div id="slide2" class="aSlide">
+                    <div class="aSlideContent">
+                      <h3 class="slideH3">Caribbean's First</h3>
+                      <span class="slideSpan">SPEAKEASY BAR</span>
+                      <div class="lowerBar">
+                        <span class="LBtext">MORE DETAILS</span>
+                        <a href="#" class="aLB">
+                          <i class="fas fa-bars barsLB"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div> <!-- #slide2.aSlide -->
+                </li>
+                <li class="glide__slide">
+                  <div id="slide3" class="aSlide">
+                    <div class="aSlideContent">
+                      <h3 class="slideH3">Authentic</h3>
+                      <span class="slideSpan">BRITISH PUBS</span>
+                      <div class="lowerBar">
+                        <span class="LBtext">MORE DETAILS</span>
+                        <a href="#" class="aLB">
+                          <i class="fas fa-bars barsLB"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div> <!-- #slide3.aSlide -->
+                </li>
+                <li class="glide__slide">
+                  <div id="slide4" class="aSlide">
+                    <div class="aSlideContent">
+                      <h3 class="slideH3">Unique</h3>
+                      <span class="slideSpan">BEACHFRONT BARS</span>
+                      <div class="lowerBar">
+                        <span class="LBtext">MORE DETAILS</span>
+                        <a href="#" class="aLB">
+                          <i class="fas fa-bars barsLB"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div> <!-- #slide4.aSlide -->
+                </li>
+                <li class="glide__slide">
+                  <div id="slide5" class="aSlide">
+                    <div class="aSlideContent">
+                      <h3 class="slideH3">Vibrant</h3>
+                      <span class="slideSpan">PIANO BARS</span>
+                      <div class="lowerBar">
+                        <span class="LBtext">MORE DETAILS</span>
+                        <a href="#" class="aLB">
+                          <i class="fas fa-bars barsLB"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div> <!-- #slide5.aSlide -->
+                </li>
+              </ul>
+            </div> <!-- track -->
+            <div class="sliderControls" data-glide-el="controls">
+              <a href="#" id="prevBtn" data-glide-dir="<">
+                <i class="fas fa-angle-left"></i>
+              </a>
+              <span class="slideCounter">1/5</span>
+              <a href="#" id="nextBtn" data-glide-dir=">">
+                <i class="fas fa-angle-right"></i>
+              </a>
             </div>
-          </div>
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-          </div>
-        </div> <!-- .glide -->
+          </div> <!-- glide -->
+        </div> <!-- .allSlideContent -->
         <div class="cocktailsContent">
           <span class="cocktailsTitle">Speciality
             <strong>Cocktails</strong>
@@ -212,8 +286,10 @@
           <div class="cover-gradient"></div> <!-- .forWhiteGrad-->
           <div class="lowerInfo">
             <div class="vidBtn">
-              <img src="59e2efcd736d54d3252e.svg" alt="play">
-              <p>PLAY VIDEO</p>
+              <a href="" id="openModal">
+                <img src="59e2efcd736d54d3252e.svg" alt="play">
+                <p>PLAY VIDEO</p>
+              </a>
             </div>
             <div class="textInfo">
               <h4>UNLIMITED PREMIUM LIQUORS</h4>
@@ -232,5 +308,14 @@
         <img src="c05604d911adde61263d.svg" alt="Beaches logo" class="footerImg">
       </footer>
     </div> <!--.container-fluid -->
+
+    <div id="myModal" class="modal">
+      <div class="modalContent">
+        <span class="close">&times;</span>
+        <div id="video2">
+          <iframe src="https://www.youtube.com/embed/RQ3tXlwr7vc" title="YouTube video player"></iframe>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
