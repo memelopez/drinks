@@ -54,3 +54,4 @@ closeBtn.addEventListener('click', (e) => {
   e.preventDefault();
   modal.style.display = 'none';
 });
+// So just grab somebody, no leaving this party
